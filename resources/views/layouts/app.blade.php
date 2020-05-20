@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8" />
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="description" content="" />
+        <meta name="description" content="{{ csrf_token() }}" />
         <meta name="author" content="" />
 
-        <title>bootstrap - Start Bootstrap Theme</title>
+        <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Bootstrap core CSS -->
         <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -38,7 +38,7 @@
         >
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"
-                    >Muhbi.com</a
+                    >{{ config('app.name', 'Laravel') }}</a
                 >
                 <button
                     class="navbar-toggler navbar-toggler-right"
