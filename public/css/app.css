@@ -138,21 +138,24 @@
     background-size: contain;
 }
 
-.contact-section .social a {
+.social a {
     text-align: center;
     height: 3rem;
     width: 3rem;
     background: #f57c27;
-    border-radius: 100%;
+    border-radius: 10%;
     line-height: 3rem;
-    color: whitesmoke;
+    color: #000000;
+    font-size: 1.5rem;
 }
 
-.contact-section .social a:hover {
-    color: #000000;
+.social a:hover {
+    background: transparent;
+    border: #f57c27 solid 1px;
+    color: #f57c27;
 }
 
 footer {
-    background-color: #f57c27;
-    color: #000000;
+    background-color: #000000;
+    color: #f57c27;
 }

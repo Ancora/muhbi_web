@@ -385,25 +385,44 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="social d-flex justify-content-center">
-                    <a href="#" class="mx-2">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="mx-2">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="mx-2">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
             </div>
         </section>
 
         <!-- Footer -->
         <footer class="small text-center">
             <div class="container">
-                Copyright &copy; Muhbi.com 2020 - Todos os direitos reservados.
+                <div class="row col-md-12">
+                    <div class="col-md-4 social d-flex btn-group-vertical">
+                        <div class="btn-group">
+                            <a href="#" class="mb-2">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="btn-group">
+                            <a href="#" class="mb-2">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="btn-group">
+                            <a href="#" class="mb-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <img
+                            class="img-fluid"
+                            src="img/logoMuhbiTransparent.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4">
+                        <span style="color: #f57c27;">Copyright &copy; - 2020 Muhbi.com</span>
+                        <p>Todos os direitos reservados</p>
+                    </div>
+                </div>
             </div>
         </footer>
 
