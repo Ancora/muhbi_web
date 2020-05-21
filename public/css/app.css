@@ -7,10 +7,24 @@
     padding: 2rem 1.5rem;
     background: linear-gradient(
         to top,
-        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.3) 10%,
         rgba(0, 0, 0, 0.7) 90%,
         #000000 100%
     );
+}
+
+@media (max-width: 991px) {
+    #mainNav {
+        background: linear-gradient(
+            to top,
+            rgba(245, 124, 39, 0.9) 90%,
+            #f57c27 100%
+        );
+    }
+    #mainNav .nav-link {
+        transition: none;
+        color: #000000;
+    }
 }
 
 @media (min-width: 992px) {
@@ -70,7 +84,7 @@
     padding-top: 15rem;
     padding-bottom: 25rem;
     background-color: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -105,7 +119,7 @@
     padding-top: 5rem;
     padding-bottom: 4rem;
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -116,7 +130,7 @@
     padding-top: 5rem;
     padding-bottom: 4rem;
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -127,7 +141,7 @@
     padding-top: 5rem;
     padding-bottom: 4rem;
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -137,7 +151,7 @@
 .contact-section {
     padding: 0;
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
