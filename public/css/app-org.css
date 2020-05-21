@@ -1,12 +1,6 @@
 #mainNav {
-    min-height: 2.5rem;
-    padding: 2rem 1.5rem;
-    background: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.3) 0%,
-        rgba(0, 0, 0, 0.7) 90%,
-        #000000 100%
-    );
+    min-height: 56px;
+    background-color: transparent;
 }
 
 @media (min-width: 992px) {
@@ -17,10 +11,14 @@
         background-color: transparent;
         transition: background-color 0.3s ease-in-out;
     }
+    #mainNav .navbar-brand {
+        padding: 0.5rem 0;
+        color: rgba(255, 255, 255, 0.5);
+    }
     #mainNav .nav-link {
         transition: none;
         padding: 2rem 1.5rem;
-        color: #000000;
+        color: rgba(255, 255, 255, 0.5);
     }
     #mainNav .nav-link:hover {
         color: rgba(255, 255, 255, 0.75);
@@ -29,13 +27,7 @@
         color: white;
     }
     #mainNav.navbar-shrink {
-        min-height: 2.5rem;
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.3) 0%,
-            rgba(0, 0, 0, 0.7) 90%,
-            #000000 100%
-        );
+        background-color: rgb(245, 124, 39);
     }
     #mainNav.navbar-shrink .navbar-brand {
         color: #161616;
@@ -65,26 +57,17 @@
     min-height: 35rem;
     padding-top: 15rem;
     padding-bottom: 25rem;
-    background-color: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background: linear-gradient(
+            to top,
+            rgba(22, 22, 22, 0.3) 0%,
+            rgba(22, 22, 22, 0.7) 90%,
+            #161616 100%
+        ),
+        url("../img/logoMuhbiColor.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-}
-
-.masthead h1 {
-    background: -webkit-linear-gradient(
-        rgba(245, 124, 39, 0.9),
-        rgba(245, 124, 39, 0)
-    );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.masthead h2 {
-    max-width: 50rem;
-    font-size: 2.5rem;
 }
 
 .bg-gradiente {
@@ -98,10 +81,13 @@
 }
 
 .about-section {
-    padding-top: 5rem;
-    padding-bottom: 4rem;
-    background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background: linear-gradient(
+            to bottom,
+            rgba(22, 22, 22, 0.3) 0%,
+            rgba(22, 22, 22, 0.7) 90%,
+            #161616 100%
+        ),
+        url("../img/logoMuhbiTransparent.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -109,10 +95,13 @@
 }
 
 .projects-section {
-    padding-top: 5rem;
-    padding-bottom: 4rem;
-    background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background: linear-gradient(
+            to top,
+            rgba(22, 22, 22, 0.3) 0%,
+            rgba(22, 22, 22, 0.7) 90%,
+            #161616 100%
+        ),
+        url("../img/logoMuhbiTransparent.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -120,10 +109,14 @@
 }
 
 .signup-section {
-    padding-top: 5rem;
-    padding-bottom: 4rem;
-    background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    padding: 3rem 0;
+    background: linear-gradient(
+            to bottom,
+            rgba(22, 22, 22, 0.1) 0%,
+            rgba(22, 22, 22, 0.5) 75%,
+            #161616 100%
+        ),
+        url("../img/logoMuhbiTransparent.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -132,8 +125,13 @@
 
 .contact-section {
     padding: 0;
-    background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35.png");
+    background: linear-gradient(
+            to bottom,
+            rgba(22, 22, 22, 0.1) 0%,
+            rgba(22, 22, 22, 0.5) 75%,
+            #161616 100%
+        ),
+        url("../img/logoMuhbiTransparent.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -158,7 +156,6 @@
 }
 
 footer {
-    padding: 0.5rem;
     background-color: #000000;
     color: #f57c27;
 }

@@ -36,9 +36,10 @@
             class="navbar navbar-expand-lg navbar-light fixed-top"
             id="mainNav"
         >
+        {{-- {{ config('app.name', 'Laravel') }} --}}
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"
-                    >{{ config('app.name', 'Laravel') }}</a
+                    ><img src="/img/logoMuhbiHorizontal.png" class="img-fluid" width="80" height="40" alt=""></a
                 >
                 <button
                     class="navbar-toggler navbar-toggler-right"
@@ -86,8 +87,8 @@
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Muhbi.com</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">
-                        Encontre tudo sobre o mercado <cite>Pet</cite>:
+                    <h2 class="text-dark-50 mx-auto mt-2 mb-5">
+                        Encontre tudo sobre o mercado <strong><cite>Pet</cite></strong>:
                         Veterinários, Clínicas, Hospitais, Adestradores,
                         PetShops etc.
                     </h2>
@@ -314,8 +315,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-dark"></i>
+                        <h2 class="text-dark mb-5">
                             Inscreva-se para receber atualizações!
                         </h2>
 
