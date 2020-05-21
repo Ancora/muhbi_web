@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 #mainNav {
     min-height: 2.5rem;
     padding: 2rem 1.5rem;
