@@ -341,46 +341,87 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100 bg-gradiente">
+                        <div
+                            class="card h-60 bg-gradiente"
+                            style="padding: 0; border: 0;"
+                        >
+                            <div class="card-header text-center text-light">
+                                <div class="row">
+                                    <div class="w-50">
+                                        <i
+                                            class="fas fa-map-marked-alt text-light mb-2"
+                                        ></i>
+                                    </div>
+                                    <div class="w-50">
+                                        <h4 class="text-uppercase m-0"
+                                            style="padding-top: 0.5rem;">
+                                            Endereço
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body text-center text-light">
-                                <i
-                                    class="fas fa-map-marked-alt text-primary mb-2"
-                                ></i>
-                                <h4 class="text-uppercase m-0">Endereço</h4>
-                                <hr class="my-4" />
                                 <div class="small">
-                                    Rua Muhbi, 123 - Bairro, Maceió/AL -
-                                    CEP57.123-123
+                                    <p>Rua Muhbi, 123 - Muhbairro, Maceió/AL</p>
+                                    CEP 57.123-123
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100 bg-gradiente">
+                        <div
+                            class="card h-100 bg-gradiente"
+                            style="padding: 0; border: 0;"
+                        >
+                            <div class="card-header text-center text-light">
+                                <div class="row">
+                                    <div class="w-50">
+                                        <i
+                                            class="fas fa-envelope text-light mb-2"
+                                        ></i>
+                                    </div>
+                                    <div class="w-50">
+                                        <h4 class="text-uppercase m-0"
+                                            style="padding-top: 0.5rem;">
+                                            E-mail
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body text-center text-light">
-                                <i
-                                    class="fas fa-envelope text-primary mb-2"
-                                ></i>
-                                <h4 class="text-uppercase m-0">E-mail</h4>
-                                <hr class="my-4" />
                                 <div class="small">
-                                    <a href="#">contato@muhbi.com</a>
+                                    <a href="#" class="text-light"
+                                        ><p>contato@muhbi.com</p></a
+                                    >
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100 bg-gradiente">
+                        <div
+                            class="card h-100 bg-gradiente"
+                            style="padding: 0; border: 0;"
+                        >
+                            <div class="card-header text-center text-light">
+                                <div class="row">
+                                    <div class="w-50">
+                                        <i
+                                            class="fas fa-mobile-alt text-light mb-2"
+                                        ></i>
+                                    </div>
+                                    <div class="w-50">
+                                        <h4 class="text-uppercase m-0"
+                                            style="padding-top: 0.5rem;">
+                                            Telefone
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body text-center text-light">
-                                <i
-                                    class="fas fa-mobile-alt text-primary mb-2"
-                                ></i>
-                                <h4 class="text-uppercase m-0">Telefone</h4>
-                                <hr class="my-4" />
                                 <div class="small">
-                                    +55 (82) 91234.5678
+                                    <p>+55 (82) 91234.5678</p>
                                 </div>
                             </div>
                         </div>
@@ -393,19 +434,19 @@
         <footer class="small text-center">
             <div class="container">
                 <div class="row col-md-12">
-                    <div class="col-md-4 social d-flex btn-group-vertical">
+                    <div class="col-md-4 social d-flex">
                         <div class="btn-group">
-                            <a href="#" class="mb-2">
+                            <a href="#" class="mr-2">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
                         <div class="btn-group">
-                            <a href="#" class="mb-2">
+                            <a href="#" class="mr-2">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </div>
                         <div class="btn-group">
-                            <a href="#" class="mb-2">
+                            <a href="#" class="mr-2">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
