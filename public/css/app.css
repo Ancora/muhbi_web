@@ -4,27 +4,8 @@
 
 #mainNav {
     min-height: 2.5rem;
-    padding: 2rem 1.5rem;
-    background: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.3) 10%,
-        rgba(0, 0, 0, 0.7) 90%,
-        #000000 100%
-    );
-}
-
-@media (max-width: 991px) {
-    #mainNav {
-        background: linear-gradient(
-            to top,
-            rgba(245, 124, 39, 0.9) 90%,
-            #f57c27 100%
-        );
-    }
-    #mainNav .nav-link {
-        transition: none;
-        color: #000000;
-    }
+    /* padding: 2rem 1.5rem; */
+    background: #cbe0f4;
 }
 
 @media (min-width: 992px) {
@@ -32,7 +13,7 @@
         padding-top: 0;
         padding-bottom: 0;
         border-bottom: none;
-        background-color: transparent;
+        background-color: #cbe0f4;
         transition: background-color 0.3s ease-in-out;
     }
     #mainNav .nav-link {
@@ -48,12 +29,7 @@
     }
     #mainNav.navbar-shrink {
         min-height: 2.5rem;
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.3) 0%,
-            rgba(0, 0, 0, 0.7) 90%,
-            #000000 100%
-        );
+        background-color: #cbe0f4;
     }
     #mainNav.navbar-shrink .navbar-brand {
         color: #161616;
@@ -84,7 +60,7 @@
     padding-top: 15rem;
     padding-bottom: 25rem;
     background-color: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
+    background-image: url("../img/logoMuhbiAnimalsOp05Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -117,9 +93,9 @@
 
 .about-section {
     padding-top: 5rem;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
+    background-image: url("../img/logoMuhbiAnimalsOp05Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,9 +104,9 @@
 
 .projects-section {
     padding-top: 5rem;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
+    background-image: url("../img/logoMuhbiAnimalsOp05Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -141,7 +117,7 @@
     padding-top: 5rem;
     padding-bottom: 4rem;
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
+    background-image: url("../img/logoMuhbiAnimalsOp05Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -151,7 +127,7 @@
 .contact-section {
     padding: 0;
     background: #fafafa;
-    background-image: url("../img/logoMuhbiAnimalsOp35Height.png");
+    background-image: url("../img/logoMuhbiAnimalsOp05Height.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
