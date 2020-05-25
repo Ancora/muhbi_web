@@ -39,7 +39,8 @@
         {{-- {{ config('app.name', 'Laravel') }} --}}
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"
-                    ><img src="/img/logoMuhbiHorizontal.png" class="img-fluid" width="80" height="40" alt=""></a
+                    ><img src="/img/logoMuhbiColor80x96.png" class="img-fluid"
+                        width=100% height=auto></a
                 >
                 <button
                     class="navbar-toggler navbar-toggler-right"
@@ -434,19 +435,19 @@
         <footer class="small text-center">
             <div class="container">
                 <div class="row col-md-12">
-                    <div class="col-md-4 social d-flex">
-                        <div class="btn-group">
-                            <a href="#" class="mr-2">
+                    <div class="col-md-4 social d-flex justify-content-center">
+                        <div class="btn-group mr-2">
+                            <a href="#">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
-                        <div class="btn-group">
-                            <a href="#" class="mr-2">
+                        <div class="btn-group mr-2">
+                            <a href="#">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </div>
-                        <div class="btn-group">
-                            <a href="#" class="mr-2">
+                        <div class="btn-group mr-2">
+                            <a href="#">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -456,7 +457,8 @@
                         <img
                             class="img-fluid"
                             src="img/logoMuhbiTransparent.png"
-                            alt=""
+                            width="80"
+                            height="40"
                         />
                     </div>
                     <div class="col-md-1"></div>
